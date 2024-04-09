@@ -51,6 +51,9 @@ restaurant search engine
 
 ## ERD
 ***
-* 맛집은 1개의 키워드에 속함 (맛집: 카테고리 = N:1)
+* 맛집은 1개의 카테고리에 속함 (맛집: 카테고리 = N:1)
 * 맛집과 키워드는 다대다 관계 (맛집키워드 테이블)
-* 맛집은 지역검색으로 
+* 리뷰 갯수 카운트도 해야함
+  
+![image](https://github.com/Madung2/matjip_searcher/assets/104334219/e5bf92eb-9a74-4308-9ab0-4ad4ade84533)
+
